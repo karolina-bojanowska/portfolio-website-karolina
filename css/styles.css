@@ -100,5 +100,39 @@ a:active {
 }
 
 a:focus {
-  color:  #48CAE4;
+    color:  #48CAE4;
+}
+
+.download_button {
+    display: inline-block;
+    background-color:#007AA3;
+    font-weight: 400;
+    padding: 36px 81px;
+    border-radius: 25px;
+    transition: 0.2s opacity;
+}
+
+.download_button:hover {
+    background-color: #48CAE4;
+}
+
+.download_button:active {
+    background-color: #48CAE4;
+}
+
+.submit_button {
+    display: inline-block;
+    background-color:#007AA3;
+    font-weight: 400;
+    padding: 19px 49px;
+    border-radius: 20px;
+    transition: 0.2s opacity;
+}
+
+.submit_button:hover {
+    background-color: #48CAE4;
+}
+
+.submit_button:active {
+    background-color: #48CAE4;
 }
