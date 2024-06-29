@@ -1,0 +1,82 @@
+/* 
+Colors used:
+Background color: #080E21
+Darkest blue: #007AA3
+Middle blue: #0096C7
+Bright blue: #00B4D8
+Fluorescent: #48CAE4
+White: #FFFFFF 
+*/
+
+/* 
+Fonts used:
+font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+
+font-family: "Kalam", cursive;
+    font-weight: 400;
+    font-style: normal;
+*/
+
+body {
+    background-color: #080E21;
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 1.1;
+}
+
+ol {
+    color: #007AA3;
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 30px;
+    line-height: 1.1;
+}
+
+h1 {
+    color: #48CAE4;
+    font-family: "Kalam", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 80px;
+    line-height: 1.1;
+}
+
+h3 {
+    color: #FFFFFF;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 1.1;
+}
+
+p {
+    color: #FFFFFF;
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 35px;
+    line-height: 1.1;
+}
+
+footer {
+    color: #FFFFFF;
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 1.1;
+}
+
+.copyright {
+    color: #FFFFFF;
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 15px;
+    line-height: 1.1;
+}
