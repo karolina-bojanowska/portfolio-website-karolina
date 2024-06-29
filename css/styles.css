@@ -83,4 +83,22 @@ footer {
 
 img {
     width: 100%;
-  }
+}
+
+a {
+    color: #007AA3;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #48CAE4;
+    text-decoration: none;
+}
+
+a:active {
+    color: #48CAE4;
+}
+
+a:focus {
+  color:  #48CAE4;
+}
