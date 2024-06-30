@@ -106,10 +106,13 @@ a:focus {
 .download_button {
     display: inline-block;
     background-color:#007AA3;
-    font-weight: 400;
+    font-family: Lato;
+    font-weight: 700;
+    font-size: 35px;
     padding: 36px 81px;
     border-radius: 25px;
     transition: 0.2s opacity;
+    cursor: pointer;
 }
 
 .download_button:hover {
@@ -123,10 +126,13 @@ a:focus {
 .submit_button {
     display: inline-block;
     background-color:#007AA3;
-    font-weight: 400;
-    padding: 19px 49px;
+    font-family: Lato;
+    font-weight: 700;
+    font-size: 30px;
+    padding: 20px 49px;
     border-radius: 20px;
     transition: 0.2s opacity;
+    cursor: pointer;
 }
 
 .submit_button:hover {
@@ -135,4 +141,63 @@ a:focus {
 
 .submit_button:active {
     background-color: #48CAE4;
+}
+
+.contact_link {
+    text-decoration: underline;
+}
+
+.contact_link:hover {
+    text-decoration: underline;
+}
+
+.p_contact {
+    color: #FFFFFF;
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 30px;
+    line-height: 1.1;
+}
+
+.contact_form {
+    height: 100px;
+    display: flex;
+    align-items:center;
+    justify-content:space-evenly;
+}
+
+.contact_left {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+}
+
+.contact_inputs {
+    width: 828px;
+    height: 100px;
+    border-color: #007AA3;
+    border-radius: 25px;
+    border-width: 4px;
+    padding-left: 40px;
+    font-family: Lato;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 30px;
+    background-color: #080E21;
+}
+
+.contact_left textarea {
+    height: 140px;
+    padding-top: 32px;
+    border-radius: 25px;
+}
+
+.contact_inputs:focus {
+    border-color:#48CAE4
+}
+
+.contact_inputs::placeholder {
+    color: #FFFFFF80
 }
