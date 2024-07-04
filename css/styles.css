@@ -108,6 +108,10 @@ img {
     width: 100%;
 }
 
+hr {
+    color: #007AA3;
+}
+
 .active_page{
     color: #48CAE4;
 }
@@ -247,3 +251,7 @@ img {
   nav > ol > li > a {
     padding: 0 45px;
   }   
+
+  .img_container {
+    float: right;
+  }
