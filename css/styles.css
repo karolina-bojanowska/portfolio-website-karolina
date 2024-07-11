@@ -32,13 +32,14 @@ body {
 }
 
 main {
-    padding-top: 480px;
+    padding-top: 450px;
   }
 
 header {
     background-color: #080E21;
     position: fixed;
     width: 100%;
+    text-align: right;
   }
 
 ol {
@@ -84,6 +85,7 @@ footer {
     font-style: normal;
     font-size: 20px;
     line-height: 1.1;
+    text-align: center;
 }
 
 a {
@@ -109,7 +111,11 @@ img {
 }
 
 hr {
-    color: #007AA3;
+    border-color: #007AA3;
+}
+
+svg {
+    margin: 0 8px;
 }
 
 .active_page{
@@ -123,6 +129,7 @@ hr {
     font-style: normal;
     font-size: 15px;
     line-height: 1.1;
+    text-align: left;
 }
 
 .download_button {
@@ -182,6 +189,10 @@ hr {
     line-height: 1.1;
 }
 
+.p_contact_form {
+    margin: 10px;
+}
+
 .contact_form {
     height: 100px;
     display: flex;
@@ -223,6 +234,7 @@ hr {
 .contact_inputs::placeholder {
     color: #FFFFFF80
 }
+
 
 /* Layout styling */
 
