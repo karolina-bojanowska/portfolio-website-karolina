@@ -33,38 +33,40 @@
 
     <main>
         <div class="container">
-            <h1>Let's get in touch!
-                <svg width="58" height="58" viewBox="0 0 58 58" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M9.6665 2.41666C5.66245 2.41666 2.4165 5.66261 2.4165 9.66666V36.25C2.4165 40.2542 5.66245 43.5 9.6665 43.5H14.4998V53.1667C14.4998 54.1043 15.0423 54.9574 15.8914 55.3552C16.7406 55.753 17.7432 55.6234 18.4636 55.0231L32.2913 43.5H48.3332C52.3373 43.5 55.5832 40.2542 55.5832 36.25V9.66666C55.5832 5.66261 52.3373 2.41666 48.3332 2.41666H9.6665Z" fill="#48CAE4"/>
-                </svg>
-            </h1>
-        </div>
+            <div>
+                <h1>Let's get in touch!
+                    <svg width="58" height="58" viewBox="0 0 58 58" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M9.6665 2.41666C5.66245 2.41666 2.4165 5.66261 2.4165 9.66666V36.25C2.4165 40.2542 5.66245 43.5 9.6665 43.5H14.4998V53.1667C14.4998 54.1043 15.0423 54.9574 15.8914 55.3552C16.7406 55.753 17.7432 55.6234 18.4636 55.0231L32.2913 43.5H48.3332C52.3373 43.5 55.5832 40.2542 55.5832 36.25V9.66666C55.5832 5.66261 52.3373 2.41666 48.3332 2.41666H9.6665Z" fill="#48CAE4"/>
+                    </svg>
+                </h1>
+            </div>    
 
- <!-- Contact form -->        
-        <div class="row">
-        <div>    
-            <div class="contact_form">
-            <form action="https://api.web3forms.com/submit" method="POST" class="contact_left">
-                <div class="contact_left_title">
+            <!-- Contact form -->        
+            <div class="row">
+            
+                <div class="contact_form">
+                    <form action="https://api.web3forms.com/submit" method="POST" class="contact_left">
+                        <div class="contact_left_title">
+                        </div>
+                        <input type="hidden" name="access_key" value="e0b6c0df-a4ae-43e1-9761-d79dbe8a5ffb">
+                        <p class="p_contact_form">Name*</p>
+                        <input type="text" name="name" placeholder="Enter your name" class="contact_inputs" required>
+                        <p class="p_contact_form">Email address*</p>
+                        <input type="email" name="email" placeholder="Enter your email address" class="contact_inputs" required>
+                        <p class="p_contact_form">Your message*</p>
+                        <textarea name="message" placeholder="Enter your message"class="contact_inputs" required></textarea>
+                        <button type="submit" class="submit_button">Submit</button>
+                    </form>
                 </div>
-                <input type="hidden" name="access_key" value="e0b6c0df-a4ae-43e1-9761-d79dbe8a5ffb">
-                <p class="p_contact_form">Name*</p>
-                <input type="text" name="name" placeholder="Enter your name" class="contact_inputs" required>
-                <p class="p_contact_form">Email address*</p>
-                <input type="email" name="email" placeholder="Enter your email address" class="contact_inputs" required>
-                <p class="p_contact_form">Your message*</p>
-                <textarea name="message" placeholder="Enter your message"class="contact_inputs" required></textarea>
-                <button type="submit" class="submit_button">Submit</button>
-            </form>
-        </div>
 
-        <div class="row">
-        <div class="container">
-            <p class="p_contact">Alternatively you can also find me on <a href="https://www.linkedin.com/in/karolina-bojanowska-674592200/" class="contact_link" target="_blank">Linkedin</a>, 
-                <a href="https://www.behance.net/karolinbojanow1" class="contact_link" target="_blank">Behance</a> 
-                or send me an email on: <a href="mailto:karolinabojanowska3@gmail.com" class="contact_link" target="_blank">karolinabojanowska3@gmail.com</a>
-            </p>
+            </div>
 
+            <div class="row">
+                <p class="p_contact">Alternatively you can also find me on <a href="https://www.linkedin.com/in/karolina-bojanowska-674592200/" class="contact_link" target="_blank">Linkedin</a>, 
+                    <a href="https://www.behance.net/karolinbojanow1" class="contact_link" target="_blank">Behance</a> 
+                    or send me an email on: <a href="mailto:karolinabojanowska3@gmail.com" class="contact_link" target="_blank">karolinabojanowska3@gmail.com</a>
+                </p>
+            </div>
         </div>
     </main>
 
