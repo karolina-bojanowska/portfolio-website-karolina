@@ -65,7 +65,7 @@ h3 {
     font-family: "Lato", sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 20px;
+    font-size: 25px;
     line-height: 1.1;
 }
 
@@ -129,7 +129,7 @@ svg {
     font-style: normal;
     font-size: 15px;
     line-height: 1.1;
-    text-align: left;
+    text-align: center;
 }
 
 .download_button {
