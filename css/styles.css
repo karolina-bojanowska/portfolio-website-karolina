@@ -435,6 +435,22 @@ textarea {
 
 @media only screen and (min-width: 640px) and (max-width: 840px) {
 
+    .col-md-6 {
+        width: 50%;
+      }
+
+    [class*="col-"] {
+        float: left;
+        padding: 0 10px;
+      }  
+
+    .row::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+      
+    
     main {
         padding-top: 250px;
         margin-left: 15px;
@@ -493,7 +509,7 @@ textarea {
 
     .submit_button {
         font-size: 20px;
-        padding: 15px 30px;
+        padding: 15px 35px;
         border-radius: 18px;
     }  
 
@@ -515,6 +531,21 @@ textarea {
 
 @media only screen and (min-width: 841px) and (max-width: 1024px) {
 
+    .col-lg-6 {
+        width: 50%;
+      }
+
+    [class*="col-"] {
+        float: left;
+        padding: 0 10px;
+      }  
+
+    .row::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+    
     main {
         padding-top: 250px;
         margin-left: 15px;
