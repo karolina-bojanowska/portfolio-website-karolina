@@ -142,7 +142,7 @@ svg {
     font-size: 35px;
     padding: 36px 81px;
     border-radius: 25px;
-    transition: 0.2s opacity;
+    transition: 0.3s opacity; 
     cursor: pointer;
 }
 
@@ -162,7 +162,7 @@ svg {
     font-size: 30px;
     padding: 20px 49px;
     border-radius: 20px;
-    transition: 0.2s opacity;
+    transition: 0.3s opacity; 
     cursor: pointer;
 }
 
@@ -245,6 +245,9 @@ textarea {
     color: #FFFFFF80
 }
 
+.project_image:hover {
+    opacity: 0.6;
+}
 
 /* Layout styling */
 
@@ -531,7 +534,7 @@ textarea {
 
 @media only screen and (min-width: 841px) and (max-width: 1024px) {
 
-    .col-lg-6 {
+    .col-md-6 {
         width: 50%;
       }
 
@@ -544,7 +547,7 @@ textarea {
         content: "";
         clear: both;
         display: table;
-      }
+    }
     
     main {
         padding-top: 250px;
@@ -626,6 +629,25 @@ textarea {
 
 @media only screen and (min-width: 1025px) and (max-width: 1280px) {
 
+    .col-lg-6 {
+        width: 50%;
+      }
+
+    [class*="col-"] {
+        float: left;
+        padding: 0 10px;
+      }  
+
+    .row::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+
+      .container {
+        max-width: 1200px;
+      }
+    
     main {
         padding-top: 350px;
         margin-left: 15px;
@@ -704,3 +726,25 @@ textarea {
     }
 }
 
+@media only screen and (min-width: 1281px) {
+
+    .col-lg-6 {
+        width: 50%;
+      }
+
+    [class*="col-"] {
+        float: left;
+        padding: 0 10px;
+      }  
+
+    .row::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+
+      .container {
+        max-width: 1200px;
+      }
+
+}
