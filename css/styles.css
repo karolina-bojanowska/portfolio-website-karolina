@@ -314,7 +314,7 @@ textarea {
     to {transform: translate(200px,50px);}
   }
 
-  .cloud_front {
+  .cloud-front {
     animation-duration: 30s;
     animation-name: cloud-move;
     animation-iteration-count: infinite;
@@ -327,7 +327,7 @@ textarea {
     to {transform: translate(100px, 48px);}
   }
   
-  .cloud_back {
+  .cloud-back {
 
     animation: 34s cloud-move-reverse infinite alternate linear
   }
@@ -344,6 +344,7 @@ textarea {
     
     header {
         text-align: center;
+        z-index: 10;
       }
 
     nav {
@@ -363,6 +364,26 @@ textarea {
 
     h1 {
         font-size: 40px;
+        padding-right: 1px;
+    }
+
+    h1 svg { 
+        width: 35px;
+        height: 35px;
+        padding-left: 2px;
+    }
+
+    footer svg {
+        width: 35px;
+        height: 35px;
+    }
+
+    .note_it_logo {
+        width: 300px;
+    }
+
+    .pet_me_logo {
+        width: 300px;
     }
 
     p {
@@ -372,6 +393,10 @@ textarea {
 
     h3 {
         font-size: 17px;
+    }
+
+    h2 {
+        font-size: 30px;
     }
 
     .copyright {
@@ -386,6 +411,8 @@ textarea {
         font-size: 20px;
         padding: 25px 40px;
         border-radius: 22px;
+        display: inline-block;
+        margin: 0 auto;
     }
 
     .submit_button {
@@ -421,6 +448,7 @@ textarea {
     
     header {
         text-align: center;
+        z-index: 10;
       }
 
     nav {
@@ -442,6 +470,25 @@ textarea {
         font-size: 40px;
     }
 
+    h1 svg { 
+        width: 38px;
+        height: 38px;
+        padding-left: 2px;
+    }
+
+    footer svg {
+        width: 37px;
+        height: 37px;
+    }
+
+    .note_it_logo {
+        width: 300px;
+    }
+
+    .pet_me_logo {
+        width: 300px;
+    }    
+
     p {
         font-size: 20px;
         line-height: 1.3;
@@ -449,6 +496,10 @@ textarea {
 
     h3 {
         font-size: 17px;
+    }
+
+    h2 {
+        font-size: 33px;
     }
 
     .copyright {
@@ -514,6 +565,7 @@ textarea {
     
     header {
         text-align: unset;
+        z-index: 10;
       }
 
     nav {
@@ -609,6 +661,7 @@ textarea {
     
     header {
         text-align: unset;
+        z-index: 10;
       }
 
     nav {
@@ -701,13 +754,14 @@ textarea {
       }
     
     main {
-        padding-top: 350px;
+        padding-top: 300px;
         margin-left: 15px;
         margin-right: 15px;
       }
     
     header {
         text-align: unset;
+        z-index: 10;
       }
 
     nav {
@@ -725,9 +779,6 @@ textarea {
         text-align: center;
     }
 
-    main {
-        padding-top: 270px;
-      }
 
     h1 {
         font-size: 50px;
@@ -799,4 +850,7 @@ textarea {
         max-width: 1200px;
       }
 
+      header {
+        z-index: 10;
+      }
 }
