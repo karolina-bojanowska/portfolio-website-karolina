@@ -359,6 +359,18 @@ textarea {
         padding: 0 10px;
       }
 
+    .navtoggle li:not(:last-child) {
+        display: none;
+      }
+
+    .navtoggle li .icon {
+        font-size: 20px;
+      }
+
+    .navtoggle.responsive li  {
+        display: block;
+      }
+
     ol {
         font-size: 20px;
       }
@@ -475,6 +487,19 @@ textarea {
         width: auto;
         float: right;
         padding: 0 10px;
+      }
+
+    .navtoggle li:not(:last-child) {
+        display: none;
+      }
+
+    .navtoggle li .icon {
+        font-size: 25px;
+      }
+
+    .navtoggle.responsive li  {
+        display: block;
+        padding: 10px 0;
       }
 
     ol {
@@ -609,6 +634,10 @@ textarea {
         padding: 0 10px;
       }
 
+    .navtoggle li:last-child {
+        display: none;
+      }
+
     ol {
         font-size: 20px;
       }
@@ -740,6 +769,10 @@ textarea {
         width: auto;
         float: right;
         padding: 0 10px;
+      }
+      
+      .navtoggle li:last-child {
+        display: none;
       }
 
     ol {
@@ -882,6 +915,10 @@ textarea {
         padding: 0 10px;
       }
 
+    .navtoggle li:last-child {
+        display: none;
+      }
+
     ol {
         font-size: 25px;
       }
@@ -1009,6 +1046,10 @@ textarea {
 
       header {
         z-index: 10;
+      }
+
+    .navtoggle li:last-child {
+        display: none;
       }
 
       .project_image {
