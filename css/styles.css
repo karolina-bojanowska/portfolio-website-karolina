@@ -357,6 +357,7 @@ textarea {
         width: auto;
         float: right;
         padding: 0 10px;
+        margin-top: 30px;
       }
 
     .navtoggle li:not(:last-child) {
@@ -365,10 +366,15 @@ textarea {
 
     .navtoggle li .icon {
         font-size: 20px;
+        position: absolute;
+        right: 10px;
+        top: 74px;
+
       }
 
     .navtoggle.responsive li  {
         display: block;
+        padding: 7px 0;
       }
 
     ol {
@@ -487,6 +493,7 @@ textarea {
         width: auto;
         float: right;
         padding: 0 10px;
+        margin-top: 50px;
       }
 
     .navtoggle li:not(:last-child) {
@@ -495,6 +502,9 @@ textarea {
 
     .navtoggle li .icon {
         font-size: 25px;
+        position: absolute;
+        right: 10px;
+        top: 74px;
       }
 
     .navtoggle.responsive li  {
