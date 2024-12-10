@@ -240,6 +240,7 @@ svg {
 
 input {
     color: #FFFFFF;
+    border:  #007AA3 solid;
 }
 
 textarea {
